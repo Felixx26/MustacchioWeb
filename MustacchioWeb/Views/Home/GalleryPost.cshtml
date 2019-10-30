@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Gallery Single Post";
+    ViewBag.Message = "Prim and Proper";
+}
+
+<div class="container-fluid container-background text-center">
+    <div class="center-all-content">
+        <div class="container">
+            <h1 class="font-weight-bold bg-dark text-white d-inline-block text-uppercase">@ViewBag.Title</h1>
+        </div>
+        <div class="container">
+            <img class="border border-dark my-4" src="~/LocalResources/@ViewBag.Image" alt="Alternate Text" />
+        </div>
+        <div class="container px-5">
+            <p class="font-weight-bold">@ViewBag.Message</p>
+            <p class="h6 font-weight-normal">Our website templates are created with inspiration, checked for quality and originality and meticulously sliced and coded. What's more, they're absolutely free! You can do a lot with them. You can modify them.</p>
+        </div>
+    </div>
+</div>

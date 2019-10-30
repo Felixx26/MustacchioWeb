@@ -11,12 +11,22 @@ namespace MustacchioWeb.Controllers
 
         public ActionResult Gallery()
         {
-
+            
+            return View();
+        }
+        public ActionResult GalleryPost(string image)
+        {
+            ViewBag.Image = image;
             return View();
         }
         public ActionResult Blog()
         {
 
+            return View();
+        }
+        public ActionResult BlogPost(string image)
+        {
+            ViewBag.Image = image;
             return View();
         }
         public ActionResult About()

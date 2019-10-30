@@ -22,12 +22,12 @@
                     <li class="nav-item">@Html.ActionLink("About", "About", "Home", null, new { @class = "nav-link font-weight-bold" })</li>
                     <li class="nav-item">@Html.ActionLink("Gallery", "Gallery", "Home", null, new { @class = "nav-link font-weight-bold" })</li>
                     <li class="nav-item">@Html.ActionLink("Blog", "Blog", "Home", null, new { @class = "nav-link font-weight-bold" })</li>
-                    <li class="nav-item">@Html.ActionLink("Contacto", "Contact", "Home", null, new { @class = "nav-link font-weight-bold" })</li>
+                    <li class="nav-item">@Html.ActionLink("Contact", "Contact", "Home", null, new { @class = "nav-link font-weight-bold" })</li>
                 </ul>
             </nav>
         </div>
     </header>
-        @RenderBody()
+    @RenderBody()
     <footer class="bg-dark text-white py-4">
         <div class="container px-5">
             <div class="px-5">
@@ -36,10 +36,22 @@
                         <p>&copy; 2023 by Mustacchio. All rights reserved.</p>
                     </div>
                     <div class="float-right">
-                        <a class="m-1" href="https://twitter.com"><img src="~/LocalResources/icons/icon-twitter.jpg" alt="Alternate Text" /></a>
-                        <a class="m-1" href="https://www.facebook.com"><img src="~/LocalResources/icons/icon-facebook.jpg" alt="Alternate Text" /></a>
-                        <a class="m-1" href="https://plus.google.com"><img src="~/LocalResources/icons/icon-googleplus.jpg" alt="Alternate Text" /></a>
-                        <a class="m-1" href="http://www.pinterst.com"><img src="~/LocalResources/icons/icon-pinterest.jpg" alt="Alternate Text" /></a>
+                        <a class="mx-4 contenedor" href="https://twitter.com">
+                            <img src="~/LocalResources/icons/icon-twitter-hover.jpg" alt="Alternate Text" />
+                            <img class="top" src="~/LocalResources/icons/icon-twitter.jpg" alt="Alternate Text" />
+                        </a>
+                        <a class="mx-4 contenedor" href="https://www.facebook.com">
+                            <img src="~/LocalResources/icons/icon-facebook-hover.jpg" alt="Alternate Text" />
+                            <img class="top" src="~/LocalResources/icons/icon-facebook.jpg" alt="Alternate Text" />
+                        </a>
+                        <a class="mx-4 contenedor" href="https://plus.google.com">
+                            <img src="~/LocalResources/icons/icon-googleplus-hover.jpg" alt="Alternate Text" />
+                            <img class="top" src="~/LocalResources/icons/icon-googleplus.jpg" alt="Alternate Text" />
+                        </a>
+                        <a class="mx-4 contenedor" href="http://www.pinterst.com">
+                            <img src="~/LocalResources/icons/icon-pinterest-hover.jpg" alt="Alternate Text" />
+                            <img class="top" src="~/LocalResources/icons/icon-pinterest.jpg" alt="Alternate Text" />
+                        </a>
                     </div>
                 </div>
             </div>

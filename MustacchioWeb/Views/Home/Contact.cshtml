@@ -1,17 +1,19 @@
 ﻿@{
     ViewBag.Title = "Contact";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
-
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+<div class="container-background">
+    <div class="text-center pb-2">
+        <h2 class="font-weight-bold text-uppercase text-white bg-dark d-inline-block px-3 py-1">Let's keep in touch</h2>
+    </div>
+    <div class="center-all-content text-center">
+        <form class="form-group" action="/" method="post">
+            <input class="form-control text-center rounded-0 border-dark my-5 bg-transparent" type="text" name="Name" value="" placeholder="Name" />
+            <input class="form-control text-center rounded-0 border-dark my-5 bg-transparent" type="text" name="Address" value="" placeholder="Address" /> 
+            <input class="form-control text-center rounded-0 border-dark my-5 bg-transparent" type="email" name="Email" value="" placeholder="Email" />
+            <input class="form-control text-center rounded-0 border-dark my-5 bg-transparent" type="text" name="Number" value="" placeholder="Phone Number"/>
+            <textarea class="form-control text-center rounded-0 border-dark my-5 bg-transparent" cols="30" rows="10" name="Message" placeholder="Message"></textarea>
+            <button class="btn btn-dark rounded-0 btn-lg">SEND</button>
+        </form>
+    </div>
+</div>

@@ -1,7 +1,65 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Gallery";
 }
+<div class="container-background">
+    <div class="text-center pb-2">
+        <h2 class="font-weight-bold text-uppercase text-white bg-dark d-inline-block px-3 py-1">Gallery</h2>
+    </div>
 
-<h2>Gallery</h2>
+    <div class="center-all-content">
+        <div class="card-deck">
+            <div class="row pb-4">
+                <div class="card border-0">
+                    <img class="card-img-top border border-dark" src="~/LocalResources/mustache1.jpg" alt="Alternate Text" />
+                    @Html.ActionLink(" ", "GalleryPost", "Home",new { image="mustache1.jpg" } , new { @class = "stretched-link" })
+                </div>
+                <div class="card border-0">
+                    <img class="card-img-top border border-dark" src="~/LocalResources/mustache2.jpg" alt="Alternate Text" />
+                    @Html.ActionLink(" ", "GalleryPost", "Home",new { image="mustache2.jpg" } , new { @class = "stretched-link" })
 
+                </div>
+                <div class="card border-0">
+                    <img class="card-img-top border border-dark" src="~/LocalResources/mustache3.jpg" alt="Alternate Text" />
+                    @Html.ActionLink(" ", "GalleryPost", "Home",new { image="mustache3.jpg" } , new { @class = "stretched-link" })
+
+                </div>
+
+            </div>
+            <div class="row pb-4">
+                <div class="card border-0">
+                    <img class="card-img-top border border-dark" src="~/LocalResources/mustache4.jpg" alt="Alternate Text" />
+                    @Html.ActionLink(" ", "GalleryPost", "Home",new { image="mustache4.jpg" } , new { @class = "stretched-link" })
+
+                </div>
+                <div class="card border-0">
+                    <img class="card-img-top border border-dark" src="~/LocalResources/mustache5.jpg" alt="Alternate Text" />
+                    @Html.ActionLink(" ", "GalleryPost", "Home",new { image="mustache5.jpg" } , new { @class = "stretched-link" })
+
+                </div>
+                <div class="card border-0">
+                    <img class="card-img-top border border-dark" src="~/LocalResources/mustache6.jpg" alt="Alternate Text" />
+                    @Html.ActionLink(" ", "GalleryPost", "Home",new { image="mustache6.jpg" } , new { @class = "stretched-link" })
+
+                </div>
+            </div>
+            <div class="row pb-4">
+                <div class="card border-0">
+                    <img class="card-img-top border border-dark" src="~/LocalResources/mustache7.jpg" alt="Alternate Text" />
+                    @Html.ActionLink(" ", "GalleryPost", "Home",new { image="mustache7.jpg" } , new { @class = "stretched-link" })
+
+                </div>
+                <div class="card border-0">
+                    <img class="card-img-top border border-dark" src="~/LocalResources/mustache8.jpg" alt="Alternate Text" />
+                    @Html.ActionLink(" ", "GalleryPost", "Home",new { image="mustache8.jpg" } , new { @class = "stretched-link" })
+
+                </div>
+                <div class="card border-0">
+                    <img class="card-img-top border border-dark" src="~/LocalResources/mustache9.jpg" alt="Alternate Text" />
+                    @Html.ActionLink(" ", "GalleryPost", "Home",new { image="mustache9.jpg" } , new { @class = "stretched-link" })
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

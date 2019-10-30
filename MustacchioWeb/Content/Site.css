@@ -5,7 +5,20 @@
     background-repeat: no-repeat;
 }
 
-.center-all-content{
+.center-all-content {
     padding-left: 20.2rem;
     padding-right: 20.2rem;
+}
+
+.contenedor {
+    position: relative;
+}
+
+.contenedor img {
+    position: absolute;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.contenedor img.top:hover {
+    opacity: 0;
 }
